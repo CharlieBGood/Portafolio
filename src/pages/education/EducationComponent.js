@@ -29,8 +29,10 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                I originally graduated as a Chemical Engineer, but after finding
+                my passion in the tech industry, I became a Software Engineer. I
+                love being in constant grow, so I consider myself a non stop
+                learner.
               </p>
             </div>
           </div>

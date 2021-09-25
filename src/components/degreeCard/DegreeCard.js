@@ -8,13 +8,9 @@ function DegreeCard(props) {
   const theme = props.theme;
 
   const style_img = style({
-    width: "220px",
+    width: "10%",
     height: "auto",
-    borderRadius: " 50%",
-    padding: "10px",
-    border: `1px solid ${theme.accentColor}`,
-    marginRight: "50px",
-    boxShadow: `0px 0px 5px ${theme.accentColor}`,
+    display: "flex",
     transition: "all 0.2s ease-in-out",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
@@ -69,25 +65,25 @@ function DegreeCard(props) {
 
   return (
     <div className="degree-card">
-      <Flip left duration={2000}>
-        <div {...style_img}>
-          <img
-            style={{
-              maxWidth: "100%",
-              maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
-            }}
-            src={require(`../../assests/images/${degree.logo_path}`)}
-            alt={degree.alt_name}
-          />
-        </div>
-      </Flip>
       <Fade right duration={2000} distance="40px">
         <div {...card_body}>
           <div
             className="body-header"
             style={{ backgroundColor: theme.accentColor }}
           >
+            <Flip left duration={2000}>
+              <div {...style_img}>
+                <img
+                  style={{
+                    maxWidth: "100%",
+                    maxHeight: "100%",
+                    transform: "scale(50%, 50%)",
+                  }}
+                  src={require(`../../assests/images/${degree.logo_path}`)}
+                  alt={degree.alt_name}
+                />
+              </div>
+            </Flip>
             <div className="body-header-title">
               <h2 className="card-title" style={{ color: "#FFFFFF" }}>
                 {degree.title}
