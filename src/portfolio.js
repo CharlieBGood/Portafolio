@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer and Machine Learning Enthusiast ✌🏻. In a changing world, learning is my only constant.",
   resumeLink:
-    "https://drive.google.com/file/d/1D5Q21uI2Qp5KtBWkq-uaK2JDDqoq4uih/view?usp=sharing",
+    "https://drive.google.com/file/d/1xJ5wnkfeNdjypcoNphqW6fNRXL0pGICd/view?usp=sharing",
   mail: "mailto:carlosbueno1196@gmail.com",
 };
 
@@ -28,7 +28,7 @@ const socialMediaLinks = {
   gmail: "carlosbueno1196@gmail.com",
   //facebook: "https://www.facebook.com/harikrishan.kanani/",
   twitter: "https://twitter.com/CharlieBGood_",
-  instagram: "https://www.instagram.com/carlosb1196/",
+  instagram: "https://www.instagram.com/charliebgood_/",
 };
 
 const skills = {
@@ -358,6 +358,24 @@ const certifications = {
       alt_name: "IBM",
       color_code: "white",
     },
+    {
+      title: "Advanced Django Course",
+      subtitle: "Platzi",
+      logo_path: "Platzi.png",
+      certificate_link:
+        "https://platzi.com/p/CharlieBGood_/curso/1461-django-avanzado/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "black",
+    },
+    {
+      title: "React Practical Course",
+      subtitle: "Platzi",
+      logo_path: "Platzi.png",
+      certificate_link:
+        "https://platzi.com/p/CharlieBGood_/curso/2484-react-practico/diploma/detalle/",
+      alt_name: "Platzi",
+      color_code: "black",
+    },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -384,9 +402,9 @@ const experience = {
         {
           title: "Technical Director",
           company: "Colombian Botanical Developments",
-          company_url: "javascript:void(0)",
+          company_url: "",
           logo_path: "CBD.png",
-          duration: "Jan 2019 - May 2021",
+          duration: "Jan 2019 - Jun 2021",
           location: "Pereira, Risaralda",
           description:
             "I worked on Final Products development, optimize extraction and distillation production techniques, and developed a tracking system for agricultural data.",
@@ -397,10 +415,21 @@ const experience = {
           company: "Skillnet S.A.S",
           company_url: "https://skillnet.co/",
           logo_path: "skillnet.png",
-          duration: "Jun 2021 - Sep 2021",
+          duration: "Jun 2021 - Oct 2021",
           location: "Work From Home",
           description:
             "Took part on both Front end and Back end development of the PQRS module in a Document Management System. Also developed the complete statistics module of the system.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Backend Developer",
+          company: "Aimo",
+          company_url: "https://aimo.co/",
+          logo_path: "aimo.png",
+          duration: "Oct 2021 - Today",
+          location: "Work From Home",
+          description:
+            "Design and develop a virtual Seal of Trust for the chamber of electronic commerce in Lima, Peru. I also Added social networks integrations for API consulting in the core application.",
           color: "#ee3c26",
         },
       ],
