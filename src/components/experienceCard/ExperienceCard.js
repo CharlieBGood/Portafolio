@@ -16,7 +16,14 @@ function ExperienceCard(props) {
         <img
           className="experience-card-logo"
           src={require(`../../assests/images/${experience["logo_path"]}`)}
-          alt=""
+          alt={experience["title"]}
+          onClick={() => {
+            experience["company_url"] !== "" &&
+              window.open(experience["company_url"]);
+          }}
+          style={{
+            cursor: "pointer",
+          }}
         />
       </div>
       <div className="experience-card-body-div">
@@ -27,10 +34,13 @@ function ExperienceCard(props) {
             </h3>
             <p
               className="experience-card-company"
-              style={{ color: theme.secondaryText }}
+              style={{ color: theme.secondaryText, cursor: "pointer" }}
             >
               <a
-                href={experience["company_url"]}
+                href={() => {
+                  experience["company_url"] !== "" &&
+                    window.open(experience["company_url"]);
+                }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
