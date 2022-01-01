@@ -25,4 +25,4 @@ This is the code to my personal portafolio which you can find deployed at charli
 - [UnDraw](https://undraw.co/illustrations)
 
 # References
-This portafolio was constructed using the template PortfolioV2 provided by @harikanani
+This portafolio was constructed using the template PortfolioV2 provided by [@harikanani](https://github.com/harikanani)
