@@ -15,9 +15,9 @@ const greeting = {
   nickname: "Charlie B Good",
   full_name: "Carlos Bueno",
   subTitle:
-    "Full Stack Developer and Machine Learning Enthusiast ✌🏻. In a changing world, learning is my only constant.",
+    "Software Developer ✌🏻. In a changing world, learning is my only constant.",
   resumeLink:
-    "https://drive.google.com/file/d/1xJ5wnkfeNdjypcoNphqW6fNRXL0pGICd/view?usp=sharing",
+    "https://drive.google.com/file/d/1o9ZCFJVQqGYv9iY9FbWFAvvaR0SKl7Og/view?usp=sharing",
   mail: "mailto:carlosbueno1196@gmail.com",
 };
 
@@ -26,22 +26,49 @@ const socialMediaLinks = {
   github: "https://github.com/CharlieBGood",
   linkedin: "https://www.linkedin.com/in/charliebgood/",
   gmail: "carlosbueno1196@gmail.com",
-  //facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/CharlieBGood_",
+  // twitter: "https://twitter.com/CharlieBGood_",
   instagram: "https://www.instagram.com/charliebgood_/",
 };
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Software Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing APIs for web applications using Django REST & NodeJS",
-        "⚡ Deploying full web applications using Python and Javascript",
+        "⚡ Provide tailored solutions that align with the unique requirements of each sector.",
+        "⚡ Understand project requirements based on business logic and translating them into efficient technical solutions.",
+        "⚡ Deliver clean and scalable code in a timely fashion.",
       ],
       softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#092e20",
+          },
+        },
+        {
+          skillName: "Postgresql",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#0064a5",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#E94E32",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -72,168 +99,10 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#439743",
-          },
-        },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
-        {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
-        },
-        {
-          skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
-          },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "simple-icons:django",
-          style: {
-            color: "#092e20",
-          },
-        },
-        {
-          skillName: "Postgresql",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#0064a5",
-          },
-        },
-        {
-          skillName: "Numpy",
-          fontAwesomeClassname: "simple-icons:numpy",
-          style: {
-            color: "#306998",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            color: "#0868AC",
-          },
-        },
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "simple-icons:tensorflow",
-          style: {
-            color: "#EE7600",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
           },
         },
       ],
@@ -362,39 +231,52 @@ const certifications = {
       alt_name: "Platzi",
       color_code: "black",
     },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work",
+  subtitle: "Summary",
   description:
-    "I currently work as Full Stack Developer. I started my professional career working as Chemical Engineer and mostly doing programming projects on my own, but now I'm completely immerse in the tech industry ❤️",
+    "Results-driven Software Developer with a proven track record in building robust web applications using Python, Django, and AWS. I excel in understanding project requirements based on business logic and translating them into efficient technical solutions. Excellent communication skills with large teams and a problem-solving mind focused on delivering clean and scalable code in a timely fashion.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Technical Director",
-          company: "Colombian Botanical Developments",
-          company_url: "",
-          logo_path: "CBD.png",
-          duration: "Jan 2019 - Jun 2021",
-          location: "Pereira, Risaralda",
+          title: "Back End Developer",
+          company: "CareLinx by Sharecare",
+          company_url: "https://carelinx.com/",
+          logo_path: "carelinx.jpeg",
+          duration: "Jun 2022 - Today",
+          location: "San Francisco, USA - Work From Home",
           description:
-            "I worked on Final Products development, optimize extraction and distillation production techniques, and developed a tracking system for agricultural data.",
-          color: "#0071C5",
+            "Led B2B Partners project, generalizing flow for multiple partners while adding new partner integration, implementing automatic SFTP data processing & SSO login via Azure SAML; Contributed to User Availability and Scheduling Tool, designing and developing modules for healthcare providers availability tracking and shift assignments.",
+          color: "#ee3c26",
+        },
+        {
+          title: "CTO",
+          company: "El Tinto",
+          company_url: "https://eltinto.xyz/",
+          logo_path: "el_tinto.png",
+          duration: "May 2022 - Today",
+          location: "Bogotá, Colombia - Work From Home",
+          description:
+            "Spearheaded web application development to tackle information overload, delivering Colombians a curated daily newsletter in 5 minutes from diverse sources; Developed a stable email tool, implemented referral program, ensured user satisfaction, and designed data structures for user consumption data.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Full Stack Developer",
+          company: "Aimo",
+          company_url: "https://aimo.co/",
+          logo_path: "aimo.png",
+          duration: "Oct 2021 - Jun 2022",
+          location: "Lima, Perú - Work From Home",
+          description:
+            "Led Aimo Logistics project, optimizing entrepreneurship through a frictionless platform with a digital catalog and Meta API integration; Developed on Sello de Confianza, delivering a user-friendly digital catalog to rank Peruvian companies based on trustworthiness.",
+          color: "#ee3c26",
         },
         {
           title: "Full Stack Developer",
@@ -402,40 +284,13 @@ const experience = {
           company_url: "https://skillnet.co/",
           logo_path: "skillnet.png",
           duration: "Jun 2021 - Oct 2021",
-          location: "Work From Home",
+          location: "Bogotá, Colombia - Work From Home",
           description:
-            "Took part on both Front end and Back end development of the PQRS module in a Document Management System. Also developed the complete statistics module of the system.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Backend Developer",
-          company: "Aimo",
-          company_url: "https://aimo.co/",
-          logo_path: "aimo.png",
-          duration: "Oct 2021 - Today",
-          location: "Work From Home",
-          description:
-            "Design and develop a virtual Seal of Trust for the chamber of electronic commerce in Lima, Peru. I also Added social networks integrations for API consulting in the core application.",
+            "Responsible for writing clean code, creating API services, and developing responsive front-end elements, while contributing to a module for user submissions and implementing a statistics tracking system",
           color: "#ee3c26",
         },
       ],
     },
-    /*{
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-      ],
-    },*/
   ],
 };
 
@@ -451,16 +306,9 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "charlie.jpg",
+    profile_image_path: "charlie.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
-    avatar_image_path: "blogs_image.svg",
+      "You can contact me at the places mentioned below. I will try to get back to you ASAP. ",
   },
 };
 
